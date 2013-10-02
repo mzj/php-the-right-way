@@ -32,7 +32,7 @@ _PHP: Na pravi način_ je (ili će uskoro biti) preveden na mnoge različite jez
 * [Bugarski](http://bg.phptherightway.com/)
 * [Nemački](http://rwetzlmayr.github.io/php-the-right-way/)
 * [Turski](http://hkulekci.github.io/php-the-right-way/)
-* [Srpski](http://hkulekci.github.io/php-the-right-way/)
+* [Srpski](http://mzj.github.io/php-the-right-way/)
 
 ## Kako da doprinesete
 
