@@ -4,78 +4,82 @@
 
 Ovo je _GitHub pages_ repozitorijum za _PHP: Na pravi način_ projekat, na srpskom jeziku.
 
-Orginalni dokument na engleskom možete naći na adresi [PHP: The Right Way](http://phptherightway.com)
+Orginalni dokument na engleskom možete naći [ovde](http://phptherightway.com)
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* Ovaj sajt je koristi [Jekyll](http://jekyllrb.com/).
+* Svaka sekcija i podsekcija su u Markdown fajlu u "_posts/" direktorijumu.
+* Podsekcije imaju atribut "isChild: true" u zaglavlju.
+* Navigacija i struktura strane se automatski generišu.
 
-## Spread the Word!
+## Raširite vest!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+_PHP: Na pravi način_ ima baner slike koje možete da koristite na svom sajtu. Iskažite vašu podršku i pokažite novim 
+PHP developerima gde da nađu dobre informacije!
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[Baner slike](http://www.phptherightway.com/banners.html)
 
-## How to Contribute
+## Kako da doprinesete
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. _Forkujte_ i modifikujte
+2. Opciono, možete instalirati [Ruby](https://rvm.io/rvm/install/) sa [Jekyll-om](https://github.com/mojombo/jekyll/) 
+da vidite sajt u lokalu
+3. Pošaljite _pull request_ na razmatranje
 
-### Contributor Style Guide
+### Uputstvo za saradnike
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
-3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+1. Koristite četiri (4) prazna mesta za uvlačenje teksta, a ne tabove.
+2. 120 karaktera po liniji.
+3. Primeri koda treba da poštuju PSR-1 standard ili više.
 
-## Where
+## Prevodi
 
 <http://www.phptherightway.com>
 
-* [English](http://www.phptherightway.com)
-* [Catalan] (http://ca.phptherightway.com)
-* [Chinese](http://wulijun.github.com/php-the-right-way)
-* [Japanese] (http://ja.phptherightway.com)
-* [Korean] (http://wafe.github.io/php-the-right-way)
-* [Italian] (http://it.phptherightway.com)
-* [Polish](http://pl.phptherightway.com)
-* [Portuguese](http://br.phptherightway.com)
-* [Russian] (http://getjump.github.io/ru-php-the-right-way)
-* [Spanish] (http://es.phptherightway.com)
-* [Ukrainian](http://iflista.github.com/php-the-right-way)
-* [Bulgarian](http://bg.phptherightway.com)
-* [German] (http://rwetzlmayr.github.io/php-the-right-way)
-* [Turkish](http://hkulekci.github.io/php-the-right-way/)
+* [Engleski](http://www.phptherightway.com)
+* Katalonski (Link trenutno neispravan...)
+* [Kineski](http://wulijun.github.com/php-the-right-way)
+* [Japanski](http://ja.phptherightway.com)
+* [Korejski](http://wafe.github.io/php-the-right-way/)
+* Italjijanski (Link trenutno neispravan...)
+* [Poljski](http://pl.phptherightway.com/)
+* [Portugalski](http://br.phptherightway.com/)
+* [Ruski](http://getjump.github.io/ru-php-the-right-way)
+* Španski (Link trenutno neispravan...)
+* [Ukrajinski](http://iflista.github.com/php-the-right-way/)
+* [Bugarski](http://bg.phptherightway.com/)
+* [Nemački](http://rwetzlmayr.github.io/php-the-right-way/)
+* [Turski](http://hkulekci.github.io/php-the-right-way/)
+* [Srpski](http://mzj.github.io/php-the-right-way/)
 
-### Translations
+Ako ste zainteresovani da prevedete ovaj projekat, _fork-_ujte ovaj repozitorijum i objavite vašu lokalizovanu kopiju na 
+vaš _GitHub pages_ nalog. Mi ćemo linkovati do vašeg prevoda iz glavnog dokumenta.
 
-If you are interested in translating _PHP: The Right Way_, fork this repo on GitHub and publish your localized fork to your own GitHub Pages account. We'll link to your translation from the primary document.
+To avoid fragmentaciju i zbunjivali čitaoce, molimo Vas da izaberete jednu od sledećih opcija:
 
-To avoid fragmentation and reader confusion, please choose one of these options:
+1. Link do vaše lokalizovane verzije izgleda ovako `[korisničkoIme].github.com/php-the-right-way`
+2. Link do vaše lokalizovane verzije izgleda ovako sa poddomenom (npr. "sr.phptherightway.com")
 
-1. We link to your GitHub Pages fork with `[username].github.com/php-the-right-way`
-2. We link to your GitHub Pages fork with a subdomain (e.g. "ru.phptherightway.com")
+Ako koristite poddomen, upišite poddomen u `CNAME` fajl, i pitajte nas da podesimo DNS. Ako ne koristite poddomen, 
+uklonite `CNAME` fajl iz vašeg repozitorijuma.
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+Kada prevod bude spreman, otvorite _issue_ na github-u i obavestite nas.
 
-When your translation is ready, open an issue on the Issue Tracker to let us know.
 
-## Why
+## Zašto
 
-There's been a lot of discussion lately about how the PHP community lacks sufficient, credible information for programmers new to PHP. This repository aims to solve this problem.
+U poslednje vreme bilo je dosta rasprava kako PHP zajednica nema zadovoljavajući i pouzdan izvor informacija za nove 
+PHP programere. Ovaj projekat želi da reši taj problem.
 
-## Who
+## Ko
 
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
+Moje ime je [Josh Lockhart](http://twitter.com/codeguy). Ja sam autor [Slim Framework](http://www.slimframework.com/), 
+i radim za [New Media Campaigns](http://www.newmediacampaigns.com/).
 
-### Collaborators
+### Saradnici
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
 
-## License
+## Licenca
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)

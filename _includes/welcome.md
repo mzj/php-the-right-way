@@ -19,7 +19,7 @@ Ovo je aktivan dokument i biće ažuriran u budućnosti sa još korisnih informa
 _PHP: Na pravi način_ je (ili će uskoro biti) preveden na mnoge jezike:
 
 * [Engleski](http://www.phptherightway.com)
-* Catalan (Link trenutno neispravan...)
+* Katalonski (Link trenutno neispravan...)
 * [Kineski](http://wulijun.github.com/php-the-right-way)
 * [Japanski](http://ja.phptherightway.com)
 * [Korejski](http://wafe.github.io/php-the-right-way/)
