@@ -1,8 +1,9 @@
-# PHP: The Right Way
+# PHP: Na pravi način
 
-## Overview
+## Pregled
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+Ovo je _GitHub pages_ repozitorijum za _PHP: Na pravi način_ projekat, na srpskom jeziku.
+Orginalni dokument na engleskom možete naći na adresi [PHP: The Right Way](http://phptherightway.com)
 
 * This website is a Jekyll project.
 * Each section and sub-section are a Markdown file in `_posts/`.

@@ -1,33 +1,33 @@
 # Dobrodošli
 
 Na internetu postoji mnogo zastarelih informacija koje navode korisnike na pogrešan put,
-propagirajući loš i nebezbedan način pisanja koda. _PHP: na pravi način_ je lako za čitanje, 
-uputstvo za popularne standarde kodiranja u PHP-u, koje sadrži skup linkova ka tutorijalima
-na internetu i ono što saradnici trenutno smatraju najboljom praksom. 
+šireći loš i nebezbedan način pisanja koda. _PHP: na pravi način_ je lako za čitanje 
+uputstvo za popularne standarde kodiranja u PHP-u, koje sadrži skup linkova ka vodećim tutorijalima
+na internetu, kao i ono što saradnici trenutno smatraju najboljom praksom. 
 
 _Ne postoji kanonski način upotrebe PHP-a_. Ovaj sajt ima za cilj da pomogne 
 novim PHP developerima upoznavajući ih sa nekim temama koje možda neće otkriti 
-pre nego što bude prekasno, i želi da da iskusnim programerima nove ideje o načinu
-na koji obavljaju neke radnje koje nisu ni preispitivali. Ovaj sajt vam neće reći 
+pre nego što bude prekasno, i želi da iskusnim programerima da nove ideje o načinu
+na koji obavljaju neke radnje o kojima nisu ni razmišljali. Ovaj sajt vam neće reći 
 koje alate da koristite, već će vam predstaviti više opcija, i kada je moguće 
 objasniti razlike u pristupu, kao i moguće slučajeve upotrebe.
 
-Ovo je aktivan dokument i biće ažuriran u budućnosti sa još korisnih informacija i primera, kako postaju dostupni.
+Ovo je aktivan dokument i biće ažuriran u budućnosti sa još korisnih informacija i primera, kako budu postali dostupni.
 
 ## Prevodi
 
-_PHP: Na pravi način_ je (ili će uskoro biti) preveden na mnoge različite jezike:
+_PHP: Na pravi način_ je (ili će uskoro biti) preveden na mnoge jezike:
 
 * [Engleski](http://www.phptherightway.com)
-* Catalan (Link broken... we're looking into it)
+* Catalan (Link trenutno neispravan...)
 * [Kineski](http://wulijun.github.com/php-the-right-way)
 * [Japanski](http://ja.phptherightway.com)
 * [Korejski](http://wafe.github.io/php-the-right-way/)
-* Italjijanski (Link broken... we're looking into it)
+* Italjijanski (Link trenutno neispravan...)
 * [Poljski](http://pl.phptherightway.com/)
 * [Portugalski](http://br.phptherightway.com/)
 * [Ruski](http://getjump.github.io/ru-php-the-right-way)
-* Španski (Link broken... we're looking into it)
+* Španski (Link trenutno neispravan...)
 * [Ukrajinski](http://iflista.github.com/php-the-right-way/)
 * [Bugarski](http://bg.phptherightway.com/)
 * [Nemački](http://rwetzlmayr.github.io/php-the-right-way/)
