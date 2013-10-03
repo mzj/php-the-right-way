@@ -51,7 +51,7 @@ da vidite sajt u lokalu
 * [Turski](http://hkulekci.github.io/php-the-right-way/)
 * [Srpski](http://mzj.github.io/php-the-right-way/)
 
-Ako ste zainteresovani da prevedete ovaj projekat, _fork-_ujte ovaj repozitorijum i objavite vašu lokalizovanu kopiju na 
+Ako ste zainteresovani da prevedete ovaj projekat, _fork_-ujte ovaj repozitorijum i objavite vašu lokalizovanu kopiju na 
 vaš _GitHub pages_ nalog. Mi ćemo linkovati do vašeg prevoda iz glavnog dokumenta.
 
 To avoid fragmentaciju i zbunjivali čitaoce, molimo Vas da izaberete jednu od sledećih opcija:
