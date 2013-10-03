@@ -3,6 +3,7 @@
 ## Pregled
 
 Ovo je _GitHub pages_ repozitorijum za _PHP: Na pravi način_ projekat, na srpskom jeziku.
+
 Orginalni dokument na engleskom možete naći na adresi [PHP: The Right Way](http://phptherightway.com)
 
 * This website is a Jekyll project.
