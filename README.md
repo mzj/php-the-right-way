@@ -54,7 +54,7 @@ da vidite sajt u lokalu
 Ako ste zainteresovani da prevedete ovaj projekat, _fork_-ujte ovaj repozitorijum i objavite vašu lokalizovanu kopiju na 
 vaš _GitHub pages_ nalog. Mi ćemo linkovati do vašeg prevoda iz glavnog dokumenta.
 
-To avoid fragmentaciju i zbunjivali čitaoce, molimo Vas da izaberete jednu od sledećih opcija:
+Da bismo izbegli fragmentaciju i da ne bismo zbunjivali čitaoce, molimo Vas da izaberete jednu od sledećih opcija:
 
 1. Link do vaše lokalizovane verzije izgleda ovako `[korisničkoIme].github.com/php-the-right-way`
 2. Link do vaše lokalizovane verzije izgleda ovako sa poddomenom (npr. "sr.phptherightway.com")
