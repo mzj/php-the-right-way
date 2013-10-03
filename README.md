@@ -7,8 +7,8 @@ Ovo je _GitHub pages_ repozitorijum za _PHP: Na pravi način_ projekat, na srpsk
 Orginalni dokument na engleskom možete naći [ovde](http://phptherightway.com)
 
 * Ovaj sajt je koristi [Jekyll](http://jekyllrb.com/).
-* Svaka sekcija i podsekcija su u Markdown fajlu u "_posts/" direktorijumu.
-* Podsekcije imaju atribut "isChild: true" u zaglavlju.
+* Svaka sekcija i podsekcija su u Markdown fajlu u `_posts/` direktorijumu.
+* Podsekcije imaju atribut `isChild: true` u zaglavlju.
 * Navigacija i struktura strane se automatski generišu.
 
 ## Raširite vest!
