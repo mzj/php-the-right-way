@@ -46,4 +46,4 @@ pomozite novim PHP developerima gde da nađu dobre informacije!
 [Baner slike][2]
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
-[2]: /banners.html
+[2]: {{ site.baseurl }}/banners.html
