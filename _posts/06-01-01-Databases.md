@@ -1,34 +1,26 @@
 ---
-title: Databases
+title: Baze podataka
 ---
 
-# Databases {#databases_title}
+# Baze podataka {#databases_title}
 
-Many times your PHP code will use a database to persist information. You have a few options to connect and interact
-with your database. The recommended option _until PHP 5.1.0_ was to use native drivers such as [mysql][mysql], [mysqli][mysqli], [pgsql][pgsql], etc.
+Vaš kod će često koristiti bazu podataka da sačuva informacije. Imate nekoliko opcija za povezivanje i ineterakcijom sa vašom bazom. Preporučena opcija _do PHP 5.1.0_ verzije je bila da se koriste lokalni drajveri kao što su [mysql][mysql], [mysqli][mysqli], [pgsql][pgsql] itd.
 
-Native drivers are great if you are only using ONE database in your application, but if, for example, you are using MySQL and a little bit of MSSQL,
-or you need to connect to an Oracle database, then you will not be able to use the same drivers. You'll need to learn a brand new API for each
-database &mdash; and that can get silly.
+Matični drajveri su odlični ako koristite samo jednu bazu podataka u vašoj aplikaciji, ali ako npr. koristite MySQL i malo MSSQL, ili morate da se povežete na _Oracle_ bazu, onda nećete moći da koristite iste drajvere. Moraćete da naučite novi API za svaku bazu posebno.
 
-As an extra note on native drivers, the mysql extension for PHP is no longer in active development, and the official status since PHP 5.4.0 is
-"Long term deprecation". This means it will be removed within the next few releases, so by PHP 5.6 (or whatever comes after 5.5) it may well be gone. If you are using `mysql_connect()` and `mysql_query()` in your applications then you will be faced with a rewrite at some point down the
-line, so the best option is to replace mysql usage with mysqli or PDO in your applications within your own development schedules so you won't
-be rushed later on. _If you are starting from scratch then absolutely do not use the mysql extension: use the [MySQLi extension][mysqli], or use PDO._
+Kao dodatna napomena vezana za matične drajvere, mysql ekstenzija za PHP više nije u aktivnom razvoju, i zvanični status od PHP verzije 5.4.0 je "_Long term deprecation_". To znači da će biti odstranjena u nekom od narednih izdanja, tako da do verzije 5.6 (ili koja god da dođe posle 5.5), će biti izbačena. Ako koristite `mysql_connect()` i `mysql_query()` funkcije u vašoj aplikaciji, moraćete da je ispravite u jednom trenutku u budućnosti. Tako da vam je najbolja opcija da zamenite mysql grupu funkcija sa mysqli ili PDO. 
 
-* [PHP: Choosing an API for MySQL](http://php.net/manual/en/mysqlinfo.api.choosing.php)
+_Ako sada počinjete sa novom aplikacijom onda nikako nemojte koristiti mysql ektenziju: koristite PDO, ili [MySQLi ekstenziju][mysqli]_ .
+
+* [PHP: biranje API-ja za MySQL](http://php.net/manual/en/mysqlinfo.api.choosing.php)
 
 ## PDO
 
-PDO is a database connection abstraction library &mdash;  built into PHP since 5.1.0 &mdash; that provides a common interface to talk with
-many different databases. PDO will not translate your SQL queries or emulate missing features; it is purely for connecting to multiple types
-of database with the same API.
+PDO je biblioteka koja apstrakuje različite baza podataka. Dolazi uz PHP od verzije 5.1.0, pruža zajednički interfejs za komunikaciju sa više različitih baza podataka. PDO neće prevoditi vaše SQL upite ili simulirati nedostajuće opcije. Služi isključivo za povezivanje sa bazama koristeći isti API.
 
-More importantly, `PDO` allows you to safely inject foreign input (e.g. IDs) into your SQL queries without worrying about database SQL injection attacks.
-This is possible using PDO statements and bound parameters.
+Još važnije, `PDO` vam omogućava da bezbedno ubrizgate strani upis (npr. ID-jeve) u vaše SQL upite bez da brinete o "_SQL injection_" napadima. To je moguće uz upotrebu PDO iskaza i vezanih parametara.
 
-Let's assume a PHP script receives a numeric ID as a query parameter. This ID should be used to fetch a user record from a database. This is the `wrong`
-way to do this:
+Pretpostavimo da PHP skripta primi numerički ID kao _query_ parametar. Taj ID treba biti iskorišćen za uzimanje podataka o korisniku iz baze podataka. Ovo je `pogrešan` način:
 
 {% highlight php %}
 <?php
@@ -36,10 +28,7 @@ $pdo = new PDO('sqlite:users.db');
 $pdo->query("SELECT name FROM users WHERE id = " . $_GET['id']); // <-- NO!
 {% endhighlight %}
 
-This is terrible code. You are inserting a raw query parameter into a SQL query. This will get you hacked in a
-heartbeat. Just imagine if a hacker passes in an inventive `id` parameter by calling a URL like
-`http://domain.com/?id=1%3BDELETE+FROM+users`.  This will set the `$_GET['id']` variable to `1;DELETE FROM users`
-which will delete all of your users! Instead, you should sanitize the ID input using PDO bound parameters.
+Ovo je užasan kod. Vi ovde ubacujete svež parametar u SQL upit. To je skroz nebezbedno, i dovelo bi do hakovanja vaše aplikacije veoma brzo. Samo zamislite kada bi haker pozvao sledeći URL gde ID ne bi bio brojčana vrednost. `http://domain.com/?id=1%3BDELETE+FROM+users`. To bi dalo `$_GET['id']` promenljivoj vrednost `1;DELETE FROM users`, a to znači da bi time obrisao sve korisnike iz tabele u bazi. Umesto toga morate da sanirate ID vrednost tako što ćete koristiti PDO vezane parametre.
 
 {% highlight php %}
 <?php
@@ -49,27 +38,20 @@ $stmt->bindParam(':id', $_GET['id'], PDO::PARAM_INT); //<-- Automatically saniti
 $stmt->execute();
 {% endhighlight %}
 
-This is correct code. It uses a bound parameter on a PDO statement. This escapes the foreign input ID before it is introduced to the
-database preventing potential SQL injection attacks.
+To je tačan kod. Koristi vezane parametre u PDO iskazu. To obezbeđuje strani unos ID vrednosti pre nego što dođe do baze podataka i time sprečava potencijalne "SQL injection" napade.
 
-* [Learn about PDO][1]
+* [Naučite o PDO-u][1]
 
-You should also be aware that database connections use up resources and it was not unheard-of to have resources
-exhausted if connections were not implicitly closed, however this was more common in other languages. Using PDO you
-can implicitly close the connection by destroying the object by ensuring all remaining references to it are deleted,
-i.e. set to NULL.  If you don't do this explicitly, PHP will automatically close the connection when your script ends -
-unless of course you are using persistent connections.
+Trebalo bi da budete i svesniji da konekcije sa bazom koriste resurse, i da nije nečuveno da su resursi iscrpljeni ako se konekcije nisu zatvorile. Mada ovo se češće dešavalo u drugim jezicima. Korišćenjem PDO-a možete implicitno zatvoriti konekciju sa bazom tako što ćete uništiti PDO objekat, tj setovati ga na NULL. Ako to ne uradite eksplicitno, PHP će to uraditi automatski kada se vaša skripta završi - osim ako naravno ne koristite stalnu konekciju.
 
-* [Learn about PDO connections][5]
 
-## Abstraction Layers
+* [Naučite o PDO konekcijama][5]
 
-Many frameworks provide their own abstraction layer which may or may not sit on top of PDO.  These will often emulate features for
-one database system that another is missing from another by wrapping your queries in PHP methods, giving you actual database abstraction.
-This will of course add a little overhead, but if you are building a portable application that needs to work with MySQL, PostgreSQL and
-SQLite then a little overhead will be worth it the sake of code cleanliness.
+## Slojevi apstrakcije
 
-Some abstraction layers have been built using the PSR-0 namespace standard so can be installed in any application you like:
+Mnogi _framework_-ovi pružaju svoje apstrakcione slojeve koji mogui, ali ne moraju da budu nadograđene na PDO. Ti slojevi će često emulirati opcije jedne baze koja druga baza nema, tako što će omotati vaše upite svojim metodama, time vam dajući pravu apstrakciju baze podataka. Ovo će naravno dodati pritisak na performanse, ali ako pravite portabilnu aplikaciju koja mora da radi sa više baza, onda taj gubitak performansi će vredeti zarad preglednosti koda.
+
+Neki slojevi apstrakcije su pravljeni pridržavajući se PSR-0 standarda imenskih prostora, tako da mogu biti dodati u svaku aplikaciju u koju želite:
 
 * [Aura SQL][6]
 * [Doctrine2 DBAL][2]
