@@ -5,18 +5,16 @@ isChild: true
 
 ## Bajtkod keš {#bytecode_cache_title}
 
-When a PHP file is executed, under the hood it is first compiled to bytecode (also known as opcode) and, only then, the bytecode is executed.
-If a PHP file is not modified, the bytecode will always be the same. This means that the compilation step is a waste of CPU resources.
+Kada se PHP fajl izvrši, ispod haube prvo se kompajlira u bajt kod (isto poznat pod imenom opkod) i, tek tada, bajtkod se izvršava.
+Ako PHP fajl nije modifikovan, bajtkod će uvek biti isti. Što znači da je kompilacija trošenje CPU resursa.
 
-This is where Bytecode cache comes in. It prevents redundant compilation by storing bytecode in memory and reusing it on successive calls.
-Setting up bytecode cache is a matter of minutes, and your application will speed up significantly. There's really no reason not to use it.
+Tu dolazi bajtkod keš. On sprečava bespotrebno kompajliranje čuvanjem u memoriji i korišćem iste kada je potrebno. Podešavanje bajkod keša može da se uradi u roku od par minuta, i vaša aplikacija će se osetno ubrzati. Ne postoji razlog da je ne koristite. 
 
-As of PHP 5.5, there is a built-in bytecode cache called [OPcache](http://php.net/manual/en/book.opcache.php). This is
-also available for earlier versions.
+Od PHP verzije 5.5, postoji ugrađen bajtkod keš nazvan [OPcache](http://php.net/manual/en/book.opcache.php). Isto je dostupan za ranije verzije.
 
-Other popular bytecodes caches are:
+Drugi popularni bajtkod keševi su:
 
-* [APC](http://php.net/manual/en/book.apc.php) (PHP 5.4 and earlier)
+* [APC](http://php.net/manual/en/book.apc.php) (PHP 5.4 i ranije)
 * [XCache](http://xcache.lighttpd.net/)
-* [Zend Optimizer+](http://www.zend.com/products/server/) (part of Zend Server package)
-* [WinCache](http://www.iis.net/download/wincacheforphp) (extension for MS Windows Server)
+* [Zend Optimizer+](http://www.zend.com/products/server/) (deo Zend Server paketa)
+* [WinCache](http://www.iis.net/download/wincacheforphp) (ektenzija za MS Windows Server)

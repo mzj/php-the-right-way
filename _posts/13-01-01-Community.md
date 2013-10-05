@@ -1,18 +1,26 @@
+---
+title: Zajednica
+---
+
 # Zajednica {#community_title}
 
-The PHP community is as diverse as it is large, and its members are ready and willing to support new PHP programmers. Consider joining your local PHP user group (PUG) or attending larger PHP conferences to learn more about the best practices shown here. You can hang out on IRC in the #phpc channel on [irc.freenode.com][php-irc] and follow the [@phpc][phpc-twitter] twitter account. Get out there, meet new developers, learn new topics, and above all, make new friends! Other community resources include the Google+ PHP [Programmer community][php-programmers-gplus] and [StackOverflow][php-so].
+PHP zajednica je raznovrsna koliko je i velika, i njeni članovi su spremni i voljni da pomognu novim PHP programerima.
+Razmislite o učlanjivanju u vašu lokalnu PHP korisničku grupu (PUG), ili posećivanju veće PHP konferencije da biste naučili više o najboljoj praki koju smo vam ovde pokazali. Možete se družiti na IRC-u u #phpc kanalu na [irc.freenode.com][php-irc], i pratite [@phpc][phpc-twitter] tviter nalog. Izađite, upoznajte nove developere, naučite o novim stvarima, i iznad svega, steknite nove prijatelje! Drugi resursi uključuju Google+ PHP [zajednicu programera][php-programmers-gplus] i [StackOverflow][php-so].
 
-[Read the Official PHP Events Calendar][php-calendar]
+
+[Pročitajte zvaničan kalendar PHP događaja][php-calendar]
 
 ## PHP korisničke grupe
 
-If you live in a larger city, odds are there's a PHP user group nearby. Although there's not yet an official list of PUGs, you can easily find your local PUG by searching on [Google][google], [Meetup.com][meetup] or [PHP.ug][php-ug]. If you live in a smaller town, there may not be a local PUG; if that's the case, start one!
+Ako živite u velikom gradu, velike su šanse da u blizini postiji PHP korisnička grupa. Iako još ne postoji zvanična lista PUG-ova, možete lako naći lokalni PUG pretragom na [Google-u][google], [Meetup.com][meetup] ili [PHP.ug][php-ug].
+Ako živite u manjem gradu, možda postoji lokalni PUG; A ako ne, vi je otvorite!
 
-[Read about User Groups on the PHP Wiki][php-wiki]
+
+[Pročitajte o korisničkim grupama na PHP Wiki-ju][php-wiki]
 
 ## PHP konferencije
 
-The PHP community also hosts larger regional and national conferences in many countries around the world. Well-known members of the PHP community usually speak at these larger events, so it's a great opportunity to learn directly from industry leaders.
+PHP zajednica takođe hostuje veće regionalne i nacionalne konferencije u mnogim zemljama na svetu. Dobro poznati članovi PHP zajednice obično imaju prezentacije na ovim većim događajima, tako da je to odlična prilika da naučite nešto direktno od vođa u industriji.
 
 [Nađite PHP konferenciju][php-conf]
 

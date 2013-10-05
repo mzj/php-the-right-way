@@ -1,11 +1,11 @@
 # Resursi {#resources_title}
 
-## From the Source
+## Iz izvora
 
 * [PHP Website](http://php.net/)
 * [PHP Documentation](http://php.net/docs.php)
 
-## People to Follow
+## Koga da pratite
 
 * [Rasmus Lerdorf](http://twitter.com/rasmus)
 * [Fabien Potencier](http://twitter.com/fabpot)
@@ -17,16 +17,16 @@
 * [Anthony Ferrara](http://twitter.com/ircmaxell)
 * [Nikita Popov](http://twitter.com/nikita_ppv)
 
-## Mentoring
+## Mentorstvo
 
-* [phpmentoring.org](http://phpmentoring.org/) - Formal, peer to peer mentoring in the PHP community.
+* [phpmentoring.org](http://phpmentoring.org/) - Formalno, jedan na jedan mentorstvo u PHP zajednici.
 
 ## PHP PaaS snabdevači
 
 * [PagodaBox](https://pagodabox.com/)
 * [AppFog](https://appfog.com/)
 * [Heroku](https://heroku.com)
-  (PHP support is undocumented but based on stable Facebook partnership [link](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
+  (PHP podrška nije dokumentovana, ali se zasnivan a Facebook partnerstvu [link](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
 * [fortrabbit](http://fortrabbit.com/)
 * [Engine Yard Cloud](https://www.engineyard.com/products/cloud)
 * [Red Hat OpenShift Platform](http://www.redhat.com/products/cloud-computing/openshift/)

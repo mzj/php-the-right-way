@@ -1,4 +1,8 @@
+---
+title: Keširanje
+---
+
 # Keširanje {#caching_title}
 
-PHP is pretty quick by itself, but bottlenecks can arise when you make remote connections, load files, etc. 
-Thankfully, there are various tools available to speed up certain parts of your application, or reduce the number of times these various time-consuming tasks need to run.
+PHP je poprilično brz sam po sebi, ali "uska grla" se mogu pojaviti kada pravite udaljene konekcije, učitavate fajlove, itd. Srećom, postoje razni alati za ubrzavanje određenih delova vaše aplikacije, ili da smanje broj potrebnih
+izvršavanja raznih zadataka koji troše mnogo vremena.
