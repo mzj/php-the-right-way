@@ -1,3 +1,7 @@
-# Serveri i premeštanje {#servers_and_deployment_title}
+---
+title: Serveri i "deployment" (PaaS)
+---
 
-PHP applications can be deployed and run on production web servers in a number of ways.
+# Serveri i deployment {#servers_and_deployment_title}
+
+PHP aplikacije mogu biti prebačene i pokrenute na produkcionim _web_ serverima na više načina.

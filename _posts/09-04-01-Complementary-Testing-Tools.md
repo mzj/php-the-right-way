@@ -5,10 +5,10 @@ isChild: true
 
 ## Dodatni alati za testiranje {#complementary_testing_tools_title}
 
-Besides individual testing and behavior driven frameworks, there are also a number of generic frameworks and helper libraries useful for any preferred approach taken.
+Osim individalnih i BDD _framework_ za testiranje, postoji i veliki broj generičnih _framework_-a i pomoćnih biblioteka korisnih koji god pristup da izaberete.
 
 ### Linkovi za alate
 
-* [Selenium](http://seleniumhq.org/) is a browser automation tool which can be [integrated with PHPUnit](http://www.phpunit.de/manual/3.1/en/selenium.html)
-* [Mockery](https://github.com/padraic/mockery) is a Mock Object Framework which can be integrated with [PHPUnit](http://phpunit.de/) or [PHPSpec](http://www.phpspec.net/)
-* [Prophecy](https://github.com/phpspec/prophecy) is a highly opinionated yet very powerful and flexible PHP object mocking framework. It's integrated with [PHPSpec](http://www.phpspec.net/) and can be used with [PHPUnit](http://phpunit.de/).
+* [Selenium](http://seleniumhq.org/) je _browser_ alat za automatizaciju koji može biti [integrisan sa  PHPUnit-om](http://www.phpunit.de/manual/3.1/en/selenium.html)
+* [Mockery](https://github.com/padraic/mockery) je _Mock Object Framework_ koji može biti integrisan sa [PHPUnit-om](http://phpunit.de/) or [PHPSpec](http://www.phpspec.net/)
+* [Prophecy](https://github.com/phpspec/prophecy) _PHP object mocking framework_. Integrisan je sa [PHPSpec-om](http://www.phpspec.net/) i može se koristiti sa [PHPUnit-om](http://phpunit.de/).
