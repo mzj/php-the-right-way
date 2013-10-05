@@ -1,15 +1,12 @@
 ---
+title: Konfiguracioni fajlovi
 isChild: true
 ---
 
-## Configuration Files {#configuration_files_title}
+## Konfiguracioni fajlovi {#configuration_files_title}
 
-When creating configuration files for your applications, best practices recommend that one of the following methods 
-be followed:
+Kada kreirate konfiguracione fajlove za vašu aplikaciju, preporuka je da pratite jedan od sledećih metoda:
 
-- It is recommended that you store your configuration information where it cannot be accessed directly and pulled in 
-via the file system.
-- If you must store your configuration files in the document root, name the files with a `.php` extension. This 
-ensures that, even if the script is accessed directly, it will not be output as plain text.
-- Information in configuration files should be protected accordingly, either through encryption or group/user file 
-system permissions
+- Preporučuje se da čuvate vaše konfiguracione podatke gde im se ne može pristupiti direktno i da se dođe do njih preko fajl sistema.
+- Ako morate da čuvate vaše konfig. fajlove u korenu dokumenta, imenujte fajlove sa `.php` ektenzijom. Ovim se osigurava da čak iako se skripti pristupi direktno, neće biti poslata kao običan tekst.
+- Podaci u konfig. fajlovima trebaju biti zaštićeni, ili uz pomoć enkripcije ili uz pomoć korisnika/grupe fajl sistem dozvola.

@@ -1,13 +1,13 @@
 ---
+title: Bezbednost internet aplikacija
 isChild: true
 ---
 
-## Web Application Security {#web_application_security_title}
+## Bezbednost internet aplikacija {#web_application_security_title}
 
-There are bad people ready and willing to exploit your web application. It is important that you
- take necessary precautions to harden your web application's security. Luckily, the fine folks at [The Open Web Application Security Project][1] (OWASP) have compiled a comprehensive list of known security issues and methods to protect yourself against them. This is a must read for the security-conscious developer.
+Postoje loši ljudi koji su spremni i voljni da eksploatišu vašu aplikaciju. Važno je da vi preduzmete neophodne mere predostrožnosti kako bi poboljšali sigurnost vaše aplikacije. Srećom, dobri ljudi iz [The Open Web Application Security Project][1] (OWASP) su sastavili obimnu listu poznatih sigurnosnih propusta i metoda kako da se zaštite od njih. Ovo je obavezno štivo za svakog developera kome je stalo do bezbednosti.
 
-* [Read the OWASP Security Guide][2]
+* [Pročitajte OWASP-ov bezbednosni vodič][2]
 
 [1]: https://www.owasp.org/
 [2]: https://www.owasp.org/index.php/Guide_Table_of_Contents

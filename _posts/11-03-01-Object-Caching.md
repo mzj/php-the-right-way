@@ -1,8 +1,9 @@
 ---
+title: Keširanje objekata
 isChild: true
 ---
 
-## Object Caching {#object_caching_title}
+## Keširanje objekata {#object_caching_title}
 
 There are times when it can be beneficial to cache individual objects in your code, such as with data that is expensive
 to get or database calls where the result is unlikely to change. You can use object caching software to hold these

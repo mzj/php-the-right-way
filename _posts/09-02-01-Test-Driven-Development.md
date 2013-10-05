@@ -1,8 +1,9 @@
 ---
+title: Razvoj vođen testiranjem
 isChild: true
 ---
 
-## Test Driven Development {#test_driven_development_title}
+## Razvoj vođen testiranjem {#test_driven_development_title}
 
 From [Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development):
 
@@ -10,7 +11,7 @@ From [Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development):
 
 There are several different types of testing that you can do for your application
 
-### Unit Testing
+### Unit testiranje
 
 Unit Testing is a programming approach to ensure functions, classes and methods are working as
 expected, from the point you build them all the way through the development cycle. By checking
@@ -35,7 +36,7 @@ applications, but there are several alternatives
 * [PUnit](http://punit.smf.me.uk/)
 * [atoum](https://github.com/atoum/atoum)
 
-### Integration Testing
+### Testiranje integracije
 
 From [Wikipedia](http://en.wikipedia.org/wiki/Integration_testing):
 
@@ -44,14 +45,14 @@ From [Wikipedia](http://en.wikipedia.org/wiki/Integration_testing):
 Many of the same tools that can be used for unit testing can be used for integration testing as many
 of the same principles are used.
 
-### Functional Testing
+### Funkcionalno testiranje
 
 Sometimes also known as acceptance testing, functional testing consists of using tools to create automated
 tests that actually use your application instead of just verifying that individual units of code are behaving
 correctly and that individual units can speak to each other correctly. These tools typically work using real
 data and simulating actual users of the application.
 
-#### Functional Testing Tools
+#### Alati za funkcionalno testiranje
 
 * [Selenium](http://seleniumhq.com)
 * [Mink](http://mink.behat.org)

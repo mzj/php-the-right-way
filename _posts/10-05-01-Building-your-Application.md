@@ -1,8 +1,9 @@
 ---
+title: Gradnja i pokretanje vaše aplikacije
 isChild: true
 ---
 
-## Building and Deploying your Application {#build_title}
+## Gradnja i pokretanje vaše aplikacije {#build_title}
 
 If you find yourself doing manual database schema changes or running your tests manually before updating your files 
 (manually), think twice! With every additional manual task needed to deploy a new version of your app, the chances for 
@@ -20,7 +21,7 @@ Among the tasks you might want to automate are:
 * Deployment
 
 
-### Build Automation Tools
+### Alati za automatizaciju gradnje
 
 Build tools can be described as a collection of scripts that handle common tasks of software deployment. The build 
 tool is not a part of your software, it acts on your software from 'outside'.
@@ -54,7 +55,7 @@ Further reading:
 * [Automate your project with Apache Ant](http://net.tutsplus.com/tutorials/other/automate-your-projects-with-apache-ant/)
 * [Maven](http://maven.apache.org/), a build framework based on Ant and [how to use it with PHP](http://www.php-maven.org/)
 
-### Continuous Integration
+### Neprekidna integracija
 
 > Continuous Integration is a software development practice where members of a team integrate their work frequently, 
 > usually each person integrates at least daily — leading to multiple integrations per day. Many teams find that this 

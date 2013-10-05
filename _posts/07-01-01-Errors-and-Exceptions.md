@@ -1,6 +1,6 @@
 ---
-title: Errors and Exceptions
+title: Greške i izuzeci
 ---
 
-# Errors and Exceptions {#errors_and_exceptions_title}
+# Greške i izuzeci {#errors_and_exceptions_title}
 
